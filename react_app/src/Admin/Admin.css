@@ -1,0 +1,17 @@
+.edit-icons{
+    font-size: 22px;
+    margin-right: 16px;
+}
+
+#md-delete-icon,#md-delete-icon:hover{
+    color: #dc3545;
+    cursor: pointer;
+}
+#md-edit-icon,#md-edit-icon:hover{
+    color: #ffc107;
+}
+
+.td-name{
+    max-width: 14rem;
+    text-align: left!important;
+}

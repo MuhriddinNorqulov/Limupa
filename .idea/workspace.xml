@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7dcfbb9d-c8de-4cde-b79f-063578edfb19" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTTP Request" />
+        <option value="HTTP Public Environment File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="a0b069d32c9c1d9a6bd08a9a3a78c2183e8c7dd2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../venv/lib/python3.8/site-packages/django/contrib/auth/models.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="25SL6iEa4SmGeOzsAw1hpW5q3zD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../EducationPlatform/user" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="HTTP Request.a#1">
+    <configuration name="a#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/a.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="maxshop_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maxshop_backend" type="Python.DjangoServer" factoryName="Django server">
+      <module name="maxshop_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api#1" />
+        <item itemvalue="HTTP Request.a#1" />
+        <item itemvalue="Python.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dcfbb9d-c8de-4cde-b79f-063578edfb19" name="Default Changelist" comment="" />
+      <created>1645515368782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645515368782</updated>
+      <workItem from="1645515370242" duration="222000" />
+      <workItem from="1647414850740" duration="368000" />
+      <workItem from="1647415238966" duration="6256000" />
+      <workItem from="1648047031531" duration="5921000" />
+      <workItem from="1648096150386" duration="8853000" />
+      <workItem from="1648230033807" duration="3759000" />
+      <workItem from="1648261927847" duration="5507000" />
+      <workItem from="1648295944939" duration="20000" />
+      <workItem from="1648311294801" duration="1711000" />
+      <workItem from="1648357933082" duration="9970000" />
+      <workItem from="1648401182014" duration="1321000" />
+      <workItem from="1648439210263" duration="5983000" />
+      <workItem from="1648491110295" duration="2071000" />
+      <workItem from="1648534835984" duration="7257000" />
+      <workItem from="1648669624468" duration="655000" />
+      <workItem from="1648704492540" duration="8634000" />
+      <workItem from="1648753397248" duration="1331000" />
+      <workItem from="1648801940137" duration="6664000" />
+      <workItem from="1648943129979" duration="6492000" />
+      <workItem from="1649077278710" duration="8792000" />
+      <workItem from="1649116064207" duration="6975000" />
+      <workItem from="1649184895493" duration="896000" />
+      <workItem from="1649201134429" duration="9770000" />
+      <workItem from="1649241841126" duration="5919000" />
+      <workItem from="1649353384296" duration="1340000" />
+      <workItem from="1649395811862" duration="631000" />
+      <workItem from="1649411729229" duration="621000" />
+      <workItem from="1649593322978" duration="2118000" />
+      <workItem from="1649665319431" duration="7510000" />
+      <workItem from="1649747622963" duration="5913000" />
+      <workItem from="1649839313630" duration="2413000" />
+      <workItem from="1649921378995" duration="2680000" />
+      <workItem from="1650044222890" duration="2231000" />
+      <workItem from="1650065678859" duration="874000" />
+      <workItem from="1650096982676" duration="3039000" />
+      <workItem from="1650373556605" duration="2471000" />
+      <workItem from="1650535895019" duration="17000" />
+      <workItem from="1650543373753" duration="856000" />
+      <workItem from="1650559283982" duration="3244000" />
+      <workItem from="1650583541299" duration="348000" />
+      <workItem from="1650653744924" duration="1997000" />
+      <workItem from="1650705279526" duration="9926000" />
+      <workItem from="1650791939194" duration="5588000" />
+      <workItem from="1650892255166" duration="2525000" />
+      <workItem from="1651047308384" duration="10715000" />
+      <workItem from="1651221847826" duration="6466000" />
+      <workItem from="1651246193252" duration="4238000" />
+      <workItem from="1651839910382" duration="2387000" />
+      <workItem from="1651847057146" duration="499000" />
+      <workItem from="1651857563084" duration="664000" />
+      <workItem from="1651863640077" duration="3972000" />
+      <workItem from="1652011878345" duration="913000" />
+      <workItem from="1652077100811" duration="4352000" />
+      <workItem from="1652105471054" duration="1914000" />
+      <workItem from="1652190250179" duration="2462000" />
+      <workItem from="1652287676512" duration="2973000" />
+      <workItem from="1652331394309" duration="13699000" />
+      <workItem from="1652368202352" duration="786000" />
+      <workItem from="1652444312549" duration="3684000" />
+      <workItem from="1652596367614" duration="5534000" />
+      <workItem from="1652603412418" duration="80000" />
+      <workItem from="1652603637566" duration="1248000" />
+      <workItem from="1652725938397" duration="2608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1e72c167-bfda-43e2-b5bc-8307ab06681d">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="5260b8e9-dca3-4677-b6bc-8aed8278b58d">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/muxriddin/Desktop/React/shop/maxshop_backend/maxshop_backend" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5260b8e9-dca3-4677-b6bc-8aed8278b58d" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/maxshop_backend$serizalizers.coverage" NAME="serizalizers Coverage Results" MODIFIED="1648363704908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/maxshop_backend$test.coverage" NAME="test Coverage Results" MODIFIED="1647421530630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/maxshop_backend$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1650717953775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+  </component>
+</project>

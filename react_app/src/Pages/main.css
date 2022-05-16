@@ -1,0 +1,271 @@
+.product-image > img {
+    width: 100%;
+}
+
+.cart-icon{
+    margin-top: 7px;
+}
+
+.lg-image{
+    margin-top: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.table td, .table th{
+    padding: 0;
+}
+
+.product-remove-icon:hover{
+    color: #dc3545;
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.product-image-size{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+
+}
+.image-size{
+    display: block;
+    /*max-width: 184px;*/
+    width: 184px;
+    /*min-height: 132px;*/
+    height: 132px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.d_grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.cardmedia{
+    height: 300px;
+}
+
+@media (max-width: 1200px) {
+    .d_grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    /*.single-product-wrap:hover{*/
+    /*    padding-bottom: 10px !important;*/
+    /*}*/
+}
+
+@media (max-width: 991px) {
+    .d_grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width: 710px) {
+    .d_grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .image-size{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-width: 400px) {
+    .d_grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .image-size{
+        width: 170px;
+        height: 170px;
+    }
+}
+
+.nav-icon{
+    margin-top: 4px;
+}
+
+.user_info > a{
+    display: inline-block;
+    border: 1px solid #e1e1e1;
+    width: 50px;
+    height: 45px;
+    color: #242424;
+}
+
+.nav-link{
+    padding: 2px 5px;
+}
+
+.user_info > a:hover{
+    border-color: #fed700;
+    color: #fed700;
+}
+
+.dropdown-menu{
+    inset: 0 auto auto -23px !important;
+    min-width: 8rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.dropdown-item, .dropdown-item a{
+    color: #6c6c6c;
+}
+
+.dropdown-item:hover{
+    background-color: #ffef29 !important;
+    cursor: pointer !important;
+}
+
+.user_options{
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    left: -7px;
+}
+
+.user_info hr{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.profile-section{
+    text-align: center;
+    padding: 15px;
+}
+
+::placeholder{
+    color: #979595;
+    font-size: 14px;
+}
+
+.form-control{
+    color: #0c0c0c;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.minicart-product-image{
+    /*position: absolute !important;*/
+    width: 50px;
+    height: 50px;
+
+    border-bottom: 1px solid #6c6c6c;
+}
+.payment-form-check{
+    position: relative !important;
+    padding: 0;
+    /*margin: 0;*/
+    height: 25px;
+    width: 9%;
+    /*display: inline-block;*/
+}
+
+.check-label{
+    position: relative;
+    top: -6px;
+    left: 14px;
+    font-size: 17px;
+    display: inline-block;
+}
+
+
+.list-title{
+    font-weight: 500;
+    color: #5e5e5e;
+    margin-bottom: 15px;
+    font-size: 22px;
+    margin-left: 70px;
+
+}
+
+.list-text{
+    margin-left: 70px;
+    line-height: 29px;
+    font-size: 15px;
+}
+
+.list-text strong{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.list-group-item{
+    border-left: none;
+    border-right: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+
+}
+
+
+.btn-black-hover:hover{
+    background-color: #282828 !important;
+}
+
+.cart-subtotal td, .cart_item td{
+    vertical-align: middle!important;
+    border-top: none;
+}
+
+
+.my_button-md{
+    background-color: #333!important;
+    border: 1px solid #333;
+    color: #fff;
+    display: inline-block;
+    /*margin-top: 12px;*/
+    padding: 6px 40px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    /*width: 100%;*/
+}
+
+
+
+.wishlist .tspan__text{
+    padding-left: 5px;
+    /*color: #6c6c6c;*/
+    font-size: 14px;
+}
+
+.shop-add-action li.wishlist:hover{
+    cursor: pointer;
+}
+
+
+.wishlist div{
+    color: #8d8d8d;
+    display: inline;
+}
+.wishlist div:hover{
+    color: #fed700;
+}
+
+.wishlist svg{
+    /*color: #6c6c6c;*/
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.add-cart__button{
+    background: #fed700!important;
+    cursor: pointer;
+}

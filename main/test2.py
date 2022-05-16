@@ -1,0 +1,20 @@
+import requests
+import json
+
+url = 'https://notify.eskiz.uz/api/auth/login'
+
+payload = {
+    'email': 'test@eskiz.uz',
+    'password': 'j6DWtQjjpLDNjWEk74Sx'
+}
+
+files = []
+headers = {}
+
+token1 = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjUsInJvbGUiOiJ1c2VyIiwiZGF0YSI6eyJpZCI6NSwibmFtZSI6Ilx1MDQyN1x1MDQxZiBCZXN0IEludGVybmV0IFNvbHV0aW9uIiwiZW1haWwiOiJ0ZXN0QGVza2l6LnV6Iiwicm9sZSI6InVzZXIiLCJhcGlfdG9rZW4iOm51bGwsInN0YXR1cyI6ImFjdGl2ZSIsInNtc19hcGlfbG9naW4iOiJlc2tpejIiLCJzbXNfYXBpX3Bhc3N3b3JkIjoiZSQkayF6IiwidXpfcHJpY2UiOjUwLCJiYWxhbmNlIjo3NTUwLCJpc192aXAiOjAsImhvc3QiOiJzZXJ2ZXIxIiwiY3JlYXRlZF9hdCI6bnVsbCwidXBkYXRlZF9hdCI6IjIwMjItMDQtMTlUMTM6MzY6NTEuMDAwMDAwWiJ9LCJpYXQiOjE2NTA3MTc2NzMsImV4cCI6MTY1MzMwOTY3M30.rmIaNPpKZfNttNfWz9LdGkvhvcMx3IfW16aV9ni71dU'
+token2 = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjUsInJvbGUiOiJ1c2VyIiwiZGF0YSI6eyJpZCI6NSwibmFtZSI6Ilx1MDQyN1x1MDQxZiBCZXN0IEludGVybmV0IFNvbHV0aW9uIiwiZW1haWwiOiJ0ZXN0QGVza2l6LnV6Iiwicm9sZSI6InVzZXIiLCJhcGlfdG9rZW4iOm51bGwsInN0YXR1cyI6ImFjdGl2ZSIsInNtc19hcGlfbG9naW4iOiJlc2tpejIiLCJzbXNfYXBpX3Bhc3N3b3JkIjoiZSQkayF6IiwidXpfcHJpY2UiOjUwLCJiYWxhbmNlIjo3NTUwLCJpc192aXAiOjAsImhvc3QiOiJzZXJ2ZXIxIiwiY3JlYXRlZF9hdCI6bnVsbCwidXBkYXRlZF9hdCI6IjIwMjItMDQtMTlUMTM6MzY6NTEuMDAwMDAwWiJ9LCJpYXQiOjE2NTA3MTc3MDEsImV4cCI6MTY1MzMwOTcwMX0.ELsytbnOg14jXcTaq2CspIL3DlfvRSg1Fqzpv1G6KFw'
+
+response = requests.request("POST", url, headers=headers, data=payload, files=files)
+print(response.text)
+res_data = json.loads(response.text).get('data').get('token')
+print(res_data)

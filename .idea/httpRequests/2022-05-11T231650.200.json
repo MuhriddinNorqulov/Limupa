@@ -1,0 +1,134 @@
+[
+  {
+    "_id": 43,
+    "reviews": [
+      {
+        "_id": 2,
+        "name": "Admin(Update)",
+        "rating": 4,
+        "comment": "fjasflkasflaf",
+        "createdAt": "2022-04-16T15:20:18.474498+05:00",
+        "product": 43,
+        "user": 1
+      }
+    ],
+    "name": "Airpods Wireless Bluetooth Headphones",
+    "image": "/media/products/card_5_7lnM7Wt.jpg",
+    "category": "Electronics",
+    "description": "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+    "rating": "4.00",
+    "numReviews": 1,
+    "price": "89.99",
+    "countInStock": 0,
+    "createdAt": "2022-04-13T13:55:05.668305+05:00",
+    "user": 1
+  },
+  {
+    "_id": 48,
+    "reviews": [
+      {
+        "_id": 3,
+        "name": "Admin(Update)",
+        "rating": 2,
+        "comment": "aa",
+        "createdAt": "2022-04-19T18:59:26.723496+05:00",
+        "product": 48,
+        "user": 1
+      }
+    ],
+    "name": "Amazon Echo Dot 3rd Generation",
+    "image": "/media/products/card_1_Nq94M7v.jpg",
+    "category": "Electronics",
+    "description": "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
+    "rating": "2.00",
+    "numReviews": 1,
+    "price": "29.99",
+    "countInStock": 0,
+    "createdAt": "2022-04-13T13:55:06.811016+05:00",
+    "user": 1
+  },
+  {
+    "_id": 49,
+    "reviews": [],
+    "name": "Airpods Wireless Bluetooth Headphones",
+    "image": "/media/products/card_2.jpg",
+    "category": "Electronics",
+    "description": "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+    "rating": "4.50",
+    "numReviews": 12,
+    "price": "89.99",
+    "countInStock": 10,
+    "createdAt": "2022-05-11T21:54:02.403763+05:00",
+    "user": 1
+  },
+  {
+    "_id": 50,
+    "reviews": [],
+    "name": "iPhone 11 Pro 256GB Memory",
+    "image": "/media/products/card_7.jpg",
+    "category": "Electronics",
+    "description": "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+    "rating": "4.00",
+    "numReviews": 8,
+    "price": "599.99",
+    "countInStock": 0,
+    "createdAt": "2022-05-11T21:54:02.407046+05:00",
+    "user": 1
+  },
+  {
+    "_id": 51,
+    "reviews": [],
+    "name": "Cannon EOS 80D DSLR Camera",
+    "image": "/media/products/card_4_UoxX7Wc.jpg",
+    "category": "Electronics",
+    "description": "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
+    "rating": "3.00",
+    "numReviews": 12,
+    "price": "929.99",
+    "countInStock": 5,
+    "createdAt": "2022-05-11T21:54:02.411707+05:00",
+    "user": 1
+  },
+  {
+    "_id": 52,
+    "reviews": [],
+    "name": "Sony Playstation 4 Pro White Version",
+    "image": "/media/products/card10_nQOkm3k.jpg",
+    "category": "Electronics",
+    "description": "The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music",
+    "rating": "5.00",
+    "numReviews": 12,
+    "price": "399.99",
+    "countInStock": 11,
+    "createdAt": "2022-05-11T21:54:02.416924+05:00",
+    "user": 1
+  },
+  {
+    "_id": 53,
+    "reviews": [],
+    "name": "Logitech G-Series Gaming Mouse",
+    "image": "/media/products/card_3.jpg",
+    "category": "Electronics",
+    "description": "Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience",
+    "rating": "3.50",
+    "numReviews": 10,
+    "price": "49.99",
+    "countInStock": 7,
+    "createdAt": "2022-05-11T21:54:02.422207+05:00",
+    "user": 1
+  },
+  {
+    "_id": 54,
+    "reviews": [],
+    "name": "Amazon Echo Dot 3rd Generation",
+    "image": "/media/products/c1_jSzGByP.jpg",
+    "category": "Electronics",
+    "description": "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
+    "rating": "4.00",
+    "numReviews": 12,
+    "price": "29.99",
+    "countInStock": 0,
+    "createdAt": "2022-05-11T21:54:02.425071+05:00",
+    "user": 1
+  }
+]

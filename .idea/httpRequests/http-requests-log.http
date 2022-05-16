@@ -1,0 +1,136 @@
+GET http://localhost:8000/api/products
+Accept: application/json
+
+<> 2022-05-11T231722.200.json
+
+###
+
+GET http://localhost:8000/api/products
+Accept: application/json
+
+<> 2022-05-11T231650.200.json
+
+###
+
+GET http://localhost:8000/api/products/search?name=air
+Accept: application/json
+
+<> 2022-05-11T231650.500.txt
+
+###
+
+GET http://localhost:8000/api/products/search?name=air
+Accept: application/json
+
+<> 2022-05-11T231646.500.txt
+
+###
+
+GET http://localhost:8000/api/products/search?name=air
+Accept: application/json
+
+<> 2022-05-11T231644.500.txt
+
+###
+
+GET http://localhost:8000/api/products/search?name=air&price=12
+Accept: application/json
+
+<> 2022-05-11T231346.500.txt
+
+###
+
+GET http://localhost:8000/api/products/search?name=air&price=12
+Accept: application/json
+
+<> 2022-05-11T231340.200.json
+
+###
+
+GET http://localhost:8000/api/products/search?q=99&name=qw
+Accept: application/json
+
+<> 2022-05-11T230605.200.json
+
+###
+
+GET http://localhost:8000/api/products/search?q=99&name=qw
+Accept: application/json
+
+###
+
+GET http://localhost:8000/api/products/search?q=99&name=qw
+Accept: application/json
+
+<> 2022-05-11T230603.500.txt
+
+###
+
+GET http://localhost:8000/api/products/search?q=99&name=qw
+Accept: application/json
+
+<> 2022-05-11T230553.500.txt
+
+###
+
+GET http://localhost:8000/api/products/search?q=99&name=qw
+Accept: application/json
+
+<> 2022-05-11T230548.500.txt
+
+###
+
+GET http://localhost:8000/api/products/search?q=99&name=qw
+Accept: application/json
+
+<> 2022-05-11T230454.500.txt
+
+###
+
+GET http://localhost:8000/api/products/search?q=99&name=qw
+Accept: application/json
+
+<> 2022-05-11T230441.500.txt
+
+###
+
+GET http://localhost:8000/api/products/search?q=99&name=qw
+Accept: application/json
+
+<> 2022-05-11T230438.200.json
+
+###
+
+GET http://localhost:8000/api/products/search?q=99
+Accept: application/json
+
+<> 2022-05-11T230405.200.json
+
+###
+
+GET http://localhost:8000/api/products/search?q=99
+Accept: application/json
+
+<> 2022-05-11T230401.200.json
+
+###
+
+GET http://localhost:8000/api/products/search?q=99
+Accept: application/json
+
+<> 2022-05-11T230343.200.json
+
+###
+
+GET http://localhost:8000/api/products/search?q=99
+Accept: application/json
+
+###
+
+GET http://localhost:8000/api/products
+Accept: application/json
+
+<> 2022-04-15T223836.200.json
+
+###
+

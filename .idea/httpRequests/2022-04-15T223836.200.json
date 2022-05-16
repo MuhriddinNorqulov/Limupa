@@ -1,0 +1,28 @@
+[
+  {
+    "_id": 43,
+    "name": "Airpods Wireless Bluetooth Headphones",
+    "image": null,
+    "category": "Electronics",
+    "description": "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+    "rating": "4.50",
+    "numReviews": 12,
+    "price": "89.99",
+    "countInStock": 10,
+    "createdAt": "2022-04-13T13:55:05.668305+05:00",
+    "user": 1
+  },
+  {
+    "_id": 48,
+    "name": "Amazon Echo Dot 3rd Generation",
+    "image": null,
+    "category": "Electronics",
+    "description": "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
+    "rating": "4.00",
+    "numReviews": 12,
+    "price": "29.99",
+    "countInStock": 0,
+    "createdAt": "2022-04-13T13:55:06.811016+05:00",
+    "user": 1
+  }
+]
