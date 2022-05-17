@@ -30,7 +30,7 @@ import Wishlist from "./Pages/CartPage/Wishlist";
 function App() {
 
   return (
-      <BrowserRouter >
+      <HashRouter >
           <div className="body-wrapper">
 
               <Routes>
@@ -86,7 +86,7 @@ function App() {
 
           </div>
           <ToastContainer/>
-      </BrowserRouter>
+      </HashRouter>
 
 
   );
