@@ -14,10 +14,14 @@ app.conf.update(timezone='Asia/Tashkent')
 app.autodiscover_tasks()
 
 app.conf.beat_schedule = {
-    'test-1': {
+    'task1': {
         "task": 'send_sms',
         'schedule': crontab(day_of_week='1-6', hour='16', minute='0'),
 
+    },
+    'task2': {
+        "task": 'create_object',
+        "schedule": 30.0
     }
 }
 
