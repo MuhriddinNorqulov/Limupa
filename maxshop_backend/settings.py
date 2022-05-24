@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 's5x*(jgs#ksvvw+lf@2sv6!h$&h%)tsk63w6h#4tc%%ox12e@5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '54.152.33.137', 'limupa.norqulov.uz']
 
 
 INSTALLED_APPS = [
