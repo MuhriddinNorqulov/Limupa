@@ -16,7 +16,7 @@ app.autodiscover_tasks()
 app.conf.beat_schedule = {
     'test-1': {
         "task": 'send_sms',
-        'schedule': crontab(day_of_week='1-6', hour='16', minute='0'),
+        'schedule': crontab(day_of_week='1-6', hour='16', minute='44'),
 
     }
 }
