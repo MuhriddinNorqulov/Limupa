@@ -30,7 +30,7 @@ import Wishlist from "./Pages/CartPage/Wishlist";
 function App() {
 
   return (
-      <HashRouter hashType={'noslash'} >
+      <HashRouter >
           <div className="body-wrapper">
 
               <Routes>

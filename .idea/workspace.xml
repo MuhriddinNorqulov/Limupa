@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTTP Request" />
         <option value="HTTP Public Environment File" />
-        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -52,15 +52,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../EducationPlatform/user" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RunManager" selected="HTTP Request.a#1">
     <configuration name="a#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/a.http" runType="Run single request">
@@ -194,8 +187,6 @@
       <workItem from="1652603637566" duration="1248000" />
       <workItem from="1652725938397" duration="5161000" />
       <workItem from="1652732327988" duration="838000" />
-      <workItem from="1652815884267" duration="1798000" />
-      <workItem from="1653382677193" duration="5216000" />
     </task>
     <servers />
   </component>
