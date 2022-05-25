@@ -1,7 +1,7 @@
 from celery import shared_task
 from datetime import datetime
 from .send_sms import sendSmsOneContact
-from models import Task
+from .models import Task
 from random import randrange
 
 

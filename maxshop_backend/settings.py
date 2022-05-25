@@ -26,7 +26,7 @@ SECRET_KEY = 's5x*(jgs#ksvvw+lf@2sv6!h$&h%)tsk63w6h#4tc%%ox12e@5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '54.152.33.137', 'limupa.norqulov.uz']
+ALLOWED_HOSTS = ['localhost', '54.152.33.137', 'limupa.norqulov.uz', '127.0.0.1']
 
 
 INSTALLED_APPS = [
@@ -183,7 +183,10 @@ MEDIA_URL = '/media/'
 CORS_ALLOW_ALL_ORIGINS = True
 
 # CELERY
-CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
+# CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
+CELERY_BACKEND = 'redis://localhost:6379/3'
+CELERY_BROKER_URL = 'redis://localhost:6379/4'
+
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
